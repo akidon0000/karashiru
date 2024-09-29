@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15008F392CA93FFA001E0C59 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15008F382CA93FFA001E0C59 /* CameraView.swift */; };
 		159245212CA6D3F600297719 /* karashiruApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1592451B2CA6D3F600297719 /* karashiruApp.swift */; };
 		159245222CA6D3F600297719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1592451C2CA6D3F600297719 /* Assets.xcassets */; };
 		159245232CA6D3F600297719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1592451E2CA6D3F600297719 /* Preview Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15008F382CA93FFA001E0C59 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		1592451B2CA6D3F600297719 /* karashiruApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = karashiruApp.swift; sourceTree = "<group>"; };
 		1592451C2CA6D3F600297719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1592451E2CA6D3F600297719 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -68,14 +70,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1592451A2CA6D3F600297719 /* App */ = {
+		15008F362CA93FC8001E0C59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1592451F2CA6D3F600297719 /* karashiru.entitlements */,
+				1592451D2CA6D3F600297719 /* Preview Content */,
+				1592451C2CA6D3F600297719 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		15008F372CA93FDC001E0C59 /* Module */ = {
 			isa = PBXGroup;
 			children = (
 				1592451B2CA6D3F600297719 /* karashiruApp.swift */,
-				1592451C2CA6D3F600297719 /* Assets.xcassets */,
-				1592451D2CA6D3F600297719 /* Preview Content */,
-				1592451F2CA6D3F600297719 /* karashiru.entitlements */,
 				159245202CA6D3F600297719 /* ContentView.swift */,
+				15008F382CA93FFA001E0C59 /* CameraView.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1592451A2CA6D3F600297719 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				15008F372CA93FDC001E0C59 /* Module */,
+				15008F362CA93FC8001E0C59 /* Resources */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -245,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15008F392CA93FFA001E0C59 /* CameraView.swift in Sources */,
 				159245212CA6D3F600297719 /* karashiruApp.swift in Sources */,
 				159245242CA6D3F600297719 /* ContentView.swift in Sources */,
 			);
@@ -400,10 +420,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/karashiru.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/Resources/karashiru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = XSC9AJPSP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -439,10 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/karashiru.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/Resources/karashiru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = XSC9AJPSP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
