@@ -132,7 +132,7 @@ final class CameraViewController: UIViewController, AVCaptureVideoDataOutputSamp
     // UIセットアップ
     private func setupUI() {
         imageView = UIImageView(frame: view.bounds)
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleToFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(imageView)
         

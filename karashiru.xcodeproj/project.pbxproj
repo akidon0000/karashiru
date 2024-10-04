@@ -14,6 +14,7 @@
 		159245242CA6D3F600297719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159245202CA6D3F600297719 /* ContentView.swift */; };
 		15D0A1222CA6D1EC002BDE7F /* karashiruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D0A1212CA6D1EC002BDE7F /* karashiruTests.swift */; };
 		15F74A322CB01DF00043556D /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F74A312CB01DF00043556D /* Extension+UIImage.swift */; };
+		15F74A352CB02D2B0043556D /* CameraSettingSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F74A342CB02D2B0043556D /* CameraSettingSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		15D0A1212CA6D1EC002BDE7F /* karashiruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karashiruTests.swift; sourceTree = "<group>"; };
 		15D0A1272CA6D1EC002BDE7F /* karashiruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karashiruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F74A312CB01DF00043556D /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		15F74A342CB02D2B0043556D /* CameraSettingSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSettingSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				1592451B2CA6D3F600297719 /* karashiruApp.swift */,
 				159245202CA6D3F600297719 /* ContentView.swift */,
 				15008F382CA93FFA001E0C59 /* CameraView.swift */,
+				15F74A342CB02D2B0043556D /* CameraSettingSheetView.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				15008F392CA93FFA001E0C59 /* CameraView.swift in Sources */,
 				159245212CA6D3F600297719 /* karashiruApp.swift in Sources */,
 				159245242CA6D3F600297719 /* ContentView.swift in Sources */,
+				15F74A352CB02D2B0043556D /* CameraSettingSheetView.swift in Sources */,
 				15F74A322CB01DF00043556D /* Extension+UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

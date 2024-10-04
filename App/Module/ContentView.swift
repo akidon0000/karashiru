@@ -8,7 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowModal = true
+
     var body: some View {
-        CameraView()
+        ZStack {
+            CameraView()
+                .sheet(isPresented: $isShowModal) {
+                    CameraSettingSheetView()
+                        .interactiveDismissDisabled(true)
+                }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
