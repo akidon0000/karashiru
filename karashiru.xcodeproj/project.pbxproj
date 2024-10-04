@@ -13,6 +13,7 @@
 		159245232CA6D3F600297719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1592451E2CA6D3F600297719 /* Preview Assets.xcassets */; };
 		159245242CA6D3F600297719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159245202CA6D3F600297719 /* ContentView.swift */; };
 		15D0A1222CA6D1EC002BDE7F /* karashiruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D0A1212CA6D1EC002BDE7F /* karashiruTests.swift */; };
+		15F74A322CB01DF00043556D /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F74A312CB01DF00043556D /* Extension+UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		15D0A11D2CA6D1EC002BDE7F /* karashiruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karashiruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D0A1212CA6D1EC002BDE7F /* karashiruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karashiruTests.swift; sourceTree = "<group>"; };
 		15D0A1272CA6D1EC002BDE7F /* karashiruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karashiruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F74A312CB01DF00043556D /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		1592451A2CA6D3F600297719 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				15F74A332CB01E190043556D /* Extension */,
 				15008F372CA93FDC001E0C59 /* Module */,
 				15008F362CA93FC8001E0C59 /* Resources */,
 			);
@@ -132,6 +135,14 @@
 				15D0A1212CA6D1EC002BDE7F /* karashiruTests.swift */,
 			);
 			path = karashiruTests;
+			sourceTree = "<group>";
+		};
+		15F74A332CB01E190043556D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15F74A312CB01DF00043556D /* Extension+UIImage.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 				15008F392CA93FFA001E0C59 /* CameraView.swift in Sources */,
 				159245212CA6D3F600297719 /* karashiruApp.swift in Sources */,
 				159245242CA6D3F600297719 /* ContentView.swift in Sources */,
+				15F74A322CB01DF00043556D /* Extension+UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
